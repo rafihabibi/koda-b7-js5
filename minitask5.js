@@ -4,7 +4,7 @@ let account = {
     password:"123"
 }
 
-let passwordBaru = "12345"
+let passwordBaru = "12345";
 
 if(passwordBaru.length >= 5) {
     let accountUpdate = {...account, password: passwordBaru};
@@ -12,3 +12,4 @@ if(passwordBaru.length >= 5) {
 } else {
     console.log("Password minimum 5 karakter");
 }
+
